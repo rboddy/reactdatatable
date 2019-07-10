@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #ccc;
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dataTable {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  grid-gap: 1px;
+  color: black;
+  /* width: 70%;
+  margin: 0 auto; */
+}
+.dataTable > div {
+  background-color: #fff;
+  padding: 1rem;
+}
+.dataTable > .dataTableHeader {
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f89232;
+  color: #fff;
+  height: 30px;
+}
+
+.categoriesList {
+  list-style: none;
+}
