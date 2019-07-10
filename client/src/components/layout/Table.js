@@ -29,7 +29,7 @@ const Table = () => {
     // add event listeners and functions to the different scroll directions
     function handleScrollDown() {
       if (
-        window.innerHeight + document.documentElement.scrollTop !==
+        window.innerHeight + window.scrollY !==
         document.documentElement.offsetHeight
       )
         return;
