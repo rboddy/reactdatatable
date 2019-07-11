@@ -10,7 +10,7 @@ const TableRow = props => {
       <div>{props.id}</div>
       <div>{props.content}</div>
       <div>{props.time}</div>
-      <div>
+      <div className="finalDiv">
         <ul className="categoriesList">
           {trimmedCategories.map(category => (
             <li key={uuid.v4()}>{category}</li>

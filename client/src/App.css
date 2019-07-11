@@ -45,3 +45,18 @@ h1 {
   border: 0;
   background: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .dataTable > .dataTableHeader {
+    display: none;
+  }
+  .dataTable {
+    display: block;
+  }
+  .dataTable > .finalDiv {
+    border-bottom: 1rem solid #ccc;
+  }
+  .dataTable > div {
+    border-bottom: 1px dashed black;
+  }
+}
