@@ -83,15 +83,20 @@ const Table = () => {
     <div>
       <div className="instructions">
         <p>Use the up and down arrow keys to load next or previous rows.</p>
-        <p>Alternatively, use these buttons</p>
-        <button className="removeBtn" onClick={dataUp}>
-          <i className="fas fa-arrow-circle-up fa-3x" />
-        </button>
-        <button className="removeBtn" onClick={dataDown}>
-          <i className="fas fa-arrow-circle-down fa-3x" />
-        </button>
+        <p>Alternatively, use the buttons on the right</p>
+        <div className="btnGroup">
+          <div />
+          <div />
+          <div>
+            <button className="removeBtn" onClick={dataUp}>
+              <i className="fas fa-arrow-circle-up fa-3x" />
+            </button>
+            <button className="removeBtn" onClick={dataDown}>
+              <i className="fas fa-arrow-circle-down fa-3x" />
+            </button>
+          </div>
+        </div>
       </div>
-
       <div className="dataTable" id="dataTable">
         <div className="dataTableHeader">ID</div>
         <div className="dataTableHeader">Content</div>
